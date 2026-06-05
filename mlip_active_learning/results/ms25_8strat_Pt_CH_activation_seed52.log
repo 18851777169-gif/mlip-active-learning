@@ -1,0 +1,126 @@
+Device: cuda
+Systems: ['Pt_CH_activation']
+Seed: 52
+
+############################################################
+#  Pt_CH_activation
+############################################################
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+  300 structures, Energy: [-284.8, -84.0] eV
+
+  --- A_random ---
+    Iter 0 | N=50 | Test MAE=2.09 eV
+    Iter 1 | N=65 | Test MAE=2.06 eV
+    Iter 2 | N=80 | Test MAE=2.13 eV
+    Iter 3 | N=95 | Test MAE=1.80 eV
+    Iter 4 | N=110 | Test MAE=1.80 eV
+    Iter 5 | N=125 | Test MAE=1.96 eV
+    Iter 6 | N=140 | Test MAE=1.80 eV
+    Iter 7 | N=155 | Test MAE=1.96 eV
+    Iter 8 | N=170 | Test MAE=1.78 eV
+
+  --- B_gmm_uncertainty ---
+    Iter 0 | N=50 | Test MAE=2.09 eV
+    Iter 1 | N=65 | Test MAE=1.78 eV
+    Iter 2 | N=80 | Test MAE=1.75 eV
+    Iter 3 | N=95 | Test MAE=1.74 eV
+    Iter 4 | N=110 | Test MAE=1.76 eV
+    Iter 5 | N=125 | Test MAE=1.85 eV
+    Iter 6 | N=140 | Test MAE=1.68 eV
+    Iter 7 | N=155 | Test MAE=1.84 eV
+    Iter 8 | N=170 | Test MAE=1.58 eV
+
+  --- C_ensemble_qbc ---
+    Iter 0 | N=50 | Test MAE=2.09 eV
+    Iter 1 | N=65 | Test MAE=1.85 eV
+    Iter 2 | N=80 | Test MAE=1.97 eV
+    Iter 3 | N=95 | Test MAE=1.54 eV
+    Iter 4 | N=110 | Test MAE=1.77 eV
+    Iter 5 | N=125 | Test MAE=1.66 eV
+    Iter 6 | N=140 | Test MAE=1.62 eV
+    Iter 7 | N=155 | Test MAE=1.64 eV
+    Iter 8 | N=170 | Test MAE=1.54 eV
+
+  --- D_mc_dropout ---
+    Iter 0 | N=50 | Test MAE=2.09 eV
+    Iter 1 | N=65 | Test MAE=1.85 eV
+    Iter 2 | N=80 | Test MAE=1.97 eV
+    Iter 3 | N=95 | Test MAE=1.54 eV
+    Iter 4 | N=110 | Test MAE=1.77 eV
+    Iter 5 | N=125 | Test MAE=1.66 eV
+    Iter 6 | N=140 | Test MAE=1.62 eV
+    Iter 7 | N=155 | Test MAE=1.64 eV
+    Iter 8 | N=170 | Test MAE=1.54 eV
+
+  --- E_diversity ---
+    Iter 0 | N=50 | Test MAE=2.09 eV
+    Iter 1 | N=65 | Test MAE=1.62 eV
+    Iter 2 | N=80 | Test MAE=1.80 eV
+    Iter 3 | N=95 | Test MAE=1.94 eV
+    Iter 4 | N=110 | Test MAE=1.85 eV
+    Iter 5 | N=125 | Test MAE=1.71 eV
+    Iter 6 | N=140 | Test MAE=1.78 eV
+    Iter 7 | N=155 | Test MAE=1.70 eV
+    Iter 8 | N=170 | Test MAE=1.53 eV
+
+  --- F_latent_clustering ---
+    Iter 0 | N=50 | Test MAE=2.09 eV
+    Iter 1 | N=65 | Test MAE=1.77 eV
+    Iter 2 | N=80 | Test MAE=1.66 eV
+    Iter 3 | N=95 | Test MAE=1.64 eV
+    Iter 4 | N=110 | Test MAE=2.02 eV
+    Iter 5 | N=125 | Test MAE=1.80 eV
+    Iter 6 | N=140 | Test MAE=2.01 eV
+    Iter 7 | N=155 | Test MAE=1.78 eV
+    Iter 8 | N=170 | Test MAE=1.93 eV
+
+  --- G_hybrid_weighted ---
+    Iter 0 | N=50 | Test MAE=2.09 eV
+    Iter 1 | N=65 | Test MAE=1.85 eV
+    Iter 2 | N=80 | Test MAE=2.12 eV
+    Iter 3 | N=95 | Test MAE=1.76 eV
+    Iter 4 | N=110 | Test MAE=1.99 eV
+    Iter 5 | N=125 | Test MAE=2.01 eV
+    Iter 6 | N=140 | Test MAE=1.84 eV
+    Iter 7 | N=155 | Test MAE=1.92 eV
+    Iter 8 | N=170 | Test MAE=1.84 eV
+
+  --- H_hybrid_twostage ---
+    Iter 0 | N=50 | Test MAE=2.09 eV
+    Iter 1 | N=65 | Test MAE=1.83 eV
+    Iter 2 | N=80 | Test MAE=2.14 eV
+    Iter 3 | N=95 | Test MAE=1.89 eV
+    Iter 4 | N=110 | Test MAE=1.64 eV
+    Iter 5 | N=125 | Test MAE=1.55 eV
+    Iter 6 | N=140 | Test MAE=1.70 eV
+    Iter 7 | N=155 | Test MAE=2.26 eV
+    Iter 8 | N=170 | Test MAE=2.03 eV
+
+======================================================================
+  FINAL RESULTS — 1 Systems x 8 Strategies
+======================================================================
+
+--- Pt_CH_activation ---
+  Strategy                         Best MAE  vs Random
+  A_random                             1.78      +0.0%
+  B_gmm_uncertainty                    1.58     +11.3%
+  C_ensemble_qbc                       1.54     +13.4%
+  D_mc_dropout                         1.54     +13.4%
+  E_diversity                          1.53     +14.0%
+  F_latent_clustering                  1.64      +7.8%
+  G_hybrid_weighted                    1.76      +1.1% <--
+  H_hybrid_twostage                    1.55     +13.0% <--
+
+======================================================================
+  CROSS-SYSTEM SUMMARY
+======================================================================
+  A_random                      +0.0% +/- 0.0%  (better in 0/1 systems)
+  B_gmm_uncertainty            +11.3% +/- 0.0%  (better in 1/1 systems)
+  C_ensemble_qbc               +13.4% +/- 0.0%  (better in 1/1 systems)
+  D_mc_dropout                 +13.4% +/- 0.0%  (better in 1/1 systems)
+  E_diversity                  +14.0% +/- 0.0%  (better in 1/1 systems)
+  F_latent_clustering           +7.8% +/- 0.0%  (better in 1/1 systems)
+  G_hybrid_weighted             +1.1% +/- 0.0%  (better in 1/1 systems)
+  H_hybrid_twostage            +13.0% +/- 0.0%  (better in 1/1 systems)
+
+  Done! Results in results/ms25_*_seed52.csv

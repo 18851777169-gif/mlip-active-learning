@@ -1,0 +1,13 @@
+Systems: ['Zr_oxide_amorphous']
+Seed: 62
+
+############################################################
+#  Zr_oxide_amorphous
+############################################################
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+  500 structures, Energy: [-1101.6, -130.5] eV
+
+  --- A_random ---
+    Iter 0 | N=50 | Test MAE=20.51 eV
+    Iter 1 | N=65 | Test MAE=19.88 eV
+    Iter 2 | N=80 | Test MAE=20.41 eV

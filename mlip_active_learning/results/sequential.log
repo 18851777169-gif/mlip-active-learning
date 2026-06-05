@@ -1,0 +1,1226 @@
+MACE environment ready: Python 3.11.7, CUDA: True
+=== Starting seed 42 ===
+Systems: ['FeNiCrCoCu_HEA', 'MgO_surface', 'Pt_CH_activation', 'Zr_oxide_amorphous', 'liquid_water', 'zeolite']
+Seed: 42
+
+############################################################
+#  FeNiCrCoCu_HEA
+############################################################
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+  300 structures, Energy: [-204.9, -45.2] eV
+
+  --- A_random ---
+    Iter 0 | N=50 | Test MAE=5.70 eV
+    Iter 1 | N=65 | Test MAE=4.24 eV
+    Iter 2 | N=80 | Test MAE=3.61 eV
+    Iter 3 | N=95 | Test MAE=2.34 eV
+    Iter 4 | N=110 | Test MAE=1.42 eV
+    Iter 5 | N=125 | Test MAE=2.02 eV
+    Iter 6 | N=140 | Test MAE=1.14 eV
+    Iter 7 | N=155 | Test MAE=0.63 eV
+    Iter 8 | N=170 | Test MAE=0.99 eV
+
+  --- C_uncertainty ---
+    Iter 0 | N=50 | Test MAE=5.70 eV
+    Iter 1 | N=65 | Test MAE=3.46 eV
+    Iter 2 | N=80 | Test MAE=1.77 eV
+    Iter 3 | N=95 | Test MAE=2.50 eV
+    Iter 4 | N=110 | Test MAE=1.46 eV
+    Iter 5 | N=125 | Test MAE=1.90 eV
+    Iter 6 | N=140 | Test MAE=0.99 eV
+    Iter 7 | N=155 | Test MAE=0.88 eV
+    Iter 8 | N=170 | Test MAE=0.56 eV
+
+  --- E_diversity ---
+    Iter 0 | N=50 | Test MAE=5.70 eV
+    Iter 1 | N=65 | Test MAE=3.89 eV
+    Iter 2 | N=80 | Test MAE=2.22 eV
+    Iter 3 | N=95 | Test MAE=1.67 eV
+    Iter 4 | N=110 | Test MAE=2.03 eV
+    Iter 5 | N=125 | Test MAE=1.34 eV
+    Iter 6 | N=140 | Test MAE=0.93 eV
+    Iter 7 | N=155 | Test MAE=1.24 eV
+    Iter 8 | N=170 | Test MAE=1.02 eV
+
+  --- G_hybrid_weighted ---
+    Iter 0 | N=50 | Test MAE=5.70 eV
+    Iter 1 | N=65 | Test MAE=3.46 eV
+    Iter 2 | N=80 | Test MAE=2.94 eV
+    Iter 3 | N=95 | Test MAE=1.68 eV
+    Iter 4 | N=110 | Test MAE=1.21 eV
+    Iter 5 | N=125 | Test MAE=1.34 eV
+    Iter 6 | N=140 | Test MAE=1.11 eV
+    Iter 7 | N=155 | Test MAE=2.43 eV
+    Iter 8 | N=170 | Test MAE=1.67 eV
+
+  --- H_hybrid_twostage ---
+    Iter 0 | N=50 | Test MAE=5.70 eV
+    Iter 1 | N=65 | Test MAE=2.89 eV
+    Iter 2 | N=80 | Test MAE=2.53 eV
+    Iter 3 | N=95 | Test MAE=2.10 eV
+    Iter 4 | N=110 | Test MAE=1.87 eV
+    Iter 5 | N=125 | Test MAE=1.03 eV
+    Iter 6 | N=140 | Test MAE=0.68 eV
+    Iter 7 | N=155 | Test MAE=0.82 eV
+    Iter 8 | N=170 | Test MAE=0.63 eV
+
+############################################################
+#  MgO_surface
+############################################################
+  300 structures, Energy: [-488.6, -77.2] eV
+
+  --- A_random ---
+    Iter 0 | N=50 | Test MAE=7.19 eV
+    Iter 1 | N=65 | Test MAE=7.56 eV
+    Iter 2 | N=80 | Test MAE=6.67 eV
+    Iter 3 | N=95 | Test MAE=6.53 eV
+    Iter 4 | N=110 | Test MAE=6.68 eV
+    Iter 5 | N=125 | Test MAE=6.54 eV
+    Iter 6 | N=140 | Test MAE=6.47 eV
+    Iter 7 | N=155 | Test MAE=7.12 eV
+    Iter 8 | N=170 | Test MAE=6.32 eV
+
+  --- C_uncertainty ---
+    Iter 0 | N=50 | Test MAE=7.19 eV
+    Iter 1 | N=65 | Test MAE=7.01 eV
+    Iter 2 | N=80 | Test MAE=6.52 eV
+    Iter 3 | N=95 | Test MAE=6.59 eV
+    Iter 4 | N=110 | Test MAE=7.31 eV
+    Iter 5 | N=125 | Test MAE=8.26 eV
+    Iter 6 | N=140 | Test MAE=7.19 eV
+    Iter 7 | N=155 | Test MAE=6.64 eV
+    Iter 8 | N=170 | Test MAE=6.45 eV
+
+  --- E_diversity ---
+    Iter 0 | N=50 | Test MAE=7.19 eV
+    Iter 1 | N=65 | Test MAE=6.43 eV
+    Iter 2 | N=80 | Test MAE=6.96 eV
+    Iter 3 | N=95 | Test MAE=6.55 eV
+    Iter 4 | N=110 | Test MAE=7.42 eV
+    Iter 5 | N=125 | Test MAE=6.74 eV
+    Iter 6 | N=140 | Test MAE=6.49 eV
+    Iter 7 | N=155 | Test MAE=6.66 eV
+    Iter 8 | N=170 | Test MAE=6.76 eV
+
+  --- G_hybrid_weighted ---
+    Iter 0 | N=50 | Test MAE=7.19 eV
+    Iter 1 | N=65 | Test MAE=7.01 eV
+    Iter 2 | N=80 | Test MAE=6.85 eV
+    Iter 3 | N=95 | Test MAE=6.54 eV
+    Iter 4 | N=110 | Test MAE=6.77 eV
+    Iter 5 | N=125 | Test MAE=6.60 eV
+    Iter 6 | N=140 | Test MAE=6.50 eV
+    Iter 7 | N=155 | Test MAE=6.62 eV
+    Iter 8 | N=170 | Test MAE=6.58 eV
+
+  --- H_hybrid_twostage ---
+    Iter 0 | N=50 | Test MAE=7.19 eV
+    Iter 1 | N=65 | Test MAE=7.07 eV
+    Iter 2 | N=80 | Test MAE=6.67 eV
+    Iter 3 | N=95 | Test MAE=6.58 eV
+    Iter 4 | N=110 | Test MAE=6.57 eV
+    Iter 5 | N=125 | Test MAE=6.34 eV
+    Iter 6 | N=140 | Test MAE=6.66 eV
+    Iter 7 | N=155 | Test MAE=6.22 eV
+    Iter 8 | N=170 | Test MAE=6.83 eV
+
+############################################################
+#  Pt_CH_activation
+############################################################
+  300 structures, Energy: [-284.8, -84.0] eV
+
+  --- A_random ---
+    Iter 0 | N=50 | Test MAE=1.56 eV
+    Iter 1 | N=65 | Test MAE=1.72 eV
+    Iter 2 | N=80 | Test MAE=1.51 eV
+    Iter 3 | N=95 | Test MAE=1.83 eV
+    Iter 4 | N=110 | Test MAE=1.62 eV
+    Iter 5 | N=125 | Test MAE=1.81 eV
+    Iter 6 | N=140 | Test MAE=1.96 eV
+    Iter 7 | N=155 | Test MAE=1.48 eV
+    Iter 8 | N=170 | Test MAE=1.44 eV
+
+  --- C_uncertainty ---
+    Iter 0 | N=50 | Test MAE=1.56 eV
+    Iter 1 | N=65 | Test MAE=1.74 eV
+    Iter 2 | N=80 | Test MAE=1.74 eV
+    Iter 3 | N=95 | Test MAE=2.01 eV
+    Iter 4 | N=110 | Test MAE=1.48 eV
+    Iter 5 | N=125 | Test MAE=1.54 eV
+    Iter 6 | N=140 | Test MAE=1.80 eV
+    Iter 7 | N=155 | Test MAE=2.02 eV
+    Iter 8 | N=170 | Test MAE=1.61 eV
+
+  --- E_diversity ---
+    Iter 0 | N=50 | Test MAE=1.56 eV
+    Iter 1 | N=65 | Test MAE=1.78 eV
+    Iter 2 | N=80 | Test MAE=2.02 eV
+    Iter 3 | N=95 | Test MAE=1.88 eV
+    Iter 4 | N=110 | Test MAE=1.59 eV
+    Iter 5 | N=125 | Test MAE=1.68 eV
+    Iter 6 | N=140 | Test MAE=2.11 eV
+    Iter 7 | N=155 | Test MAE=1.43 eV
+    Iter 8 | N=170 | Test MAE=1.52 eV
+
+  --- G_hybrid_weighted ---
+    Iter 0 | N=50 | Test MAE=1.56 eV
+    Iter 1 | N=65 | Test MAE=2.17 eV
+    Iter 2 | N=80 | Test MAE=2.61 eV
+    Iter 3 | N=95 | Test MAE=1.58 eV
+    Iter 4 | N=110 | Test MAE=1.95 eV
+    Iter 5 | N=125 | Test MAE=1.66 eV
+    Iter 6 | N=140 | Test MAE=1.88 eV
+    Iter 7 | N=155 | Test MAE=1.56 eV
+    Iter 8 | N=170 | Test MAE=1.47 eV
+
+  --- H_hybrid_twostage ---
+    Iter 0 | N=50 | Test MAE=1.56 eV
+    Iter 1 | N=65 | Test MAE=2.02 eV
+    Iter 2 | N=80 | Test MAE=1.76 eV
+    Iter 3 | N=95 | Test MAE=1.62 eV
+    Iter 4 | N=110 | Test MAE=1.49 eV
+    Iter 5 | N=125 | Test MAE=1.82 eV
+    Iter 6 | N=140 | Test MAE=1.47 eV
+    Iter 7 | N=155 | Test MAE=1.53 eV
+    Iter 8 | N=170 | Test MAE=1.53 eV
+
+############################################################
+#  Zr_oxide_amorphous
+############################################################
+  300 structures, Energy: [-518.1, -144.9] eV
+
+  --- A_random ---
+    Iter 0 | N=50 | Test MAE=15.54 eV
+    Iter 1 | N=65 | Test MAE=15.48 eV
+    Iter 2 | N=80 | Test MAE=15.80 eV
+    Iter 3 | N=95 | Test MAE=15.63 eV
+    Iter 4 | N=110 | Test MAE=15.46 eV
+    Iter 5 | N=125 | Test MAE=15.28 eV
+    Iter 6 | N=140 | Test MAE=15.49 eV
+    Iter 7 | N=155 | Test MAE=15.46 eV
+    Iter 8 | N=170 | Test MAE=15.67 eV
+
+  --- C_uncertainty ---
+    Iter 0 | N=50 | Test MAE=15.54 eV
+    Iter 1 | N=65 | Test MAE=15.64 eV
+    Iter 2 | N=80 | Test MAE=15.18 eV
+    Iter 3 | N=95 | Test MAE=15.58 eV
+    Iter 4 | N=110 | Test MAE=15.16 eV
+    Iter 5 | N=125 | Test MAE=15.63 eV
+    Iter 6 | N=140 | Test MAE=15.45 eV
+    Iter 7 | N=155 | Test MAE=15.83 eV
+    Iter 8 | N=170 | Test MAE=15.20 eV
+
+  --- E_diversity ---
+    Iter 0 | N=50 | Test MAE=15.54 eV
+    Iter 1 | N=65 | Test MAE=15.61 eV
+    Iter 2 | N=80 | Test MAE=15.30 eV
+    Iter 3 | N=95 | Test MAE=16.52 eV
+    Iter 4 | N=110 | Test MAE=15.80 eV
+    Iter 5 | N=125 | Test MAE=15.64 eV
+    Iter 6 | N=140 | Test MAE=15.01 eV
+    Iter 7 | N=155 | Test MAE=15.47 eV
+    Iter 8 | N=170 | Test MAE=15.57 eV
+
+  --- G_hybrid_weighted ---
+    Iter 0 | N=50 | Test MAE=15.54 eV
+    Iter 1 | N=65 | Test MAE=15.64 eV
+    Iter 2 | N=80 | Test MAE=15.89 eV
+    Iter 3 | N=95 | Test MAE=15.56 eV
+    Iter 4 | N=110 | Test MAE=16.92 eV
+    Iter 5 | N=125 | Test MAE=15.34 eV
+    Iter 6 | N=140 | Test MAE=15.31 eV
+    Iter 7 | N=155 | Test MAE=15.56 eV
+    Iter 8 | N=170 | Test MAE=15.63 eV
+
+  --- H_hybrid_twostage ---
+    Iter 0 | N=50 | Test MAE=15.54 eV
+    Iter 1 | N=65 | Test MAE=15.64 eV
+    Iter 2 | N=80 | Test MAE=15.51 eV
+    Iter 3 | N=95 | Test MAE=15.27 eV
+    Iter 4 | N=110 | Test MAE=15.56 eV
+    Iter 5 | N=125 | Test MAE=15.43 eV
+    Iter 6 | N=140 | Test MAE=15.37 eV
+    Iter 7 | N=155 | Test MAE=15.90 eV
+    Iter 8 | N=170 | Test MAE=15.54 eV
+
+############################################################
+#  liquid_water
+############################################################
+  200 structures, Energy: [-186.6, -38.3] eV
+
+  --- A_random ---
+    Iter 0 | N=50 | Test MAE=3.04 eV
+    Iter 1 | N=65 | Test MAE=3.27 eV
+    Iter 2 | N=80 | Test MAE=3.64 eV
+    Iter 3 | N=95 | Test MAE=3.11 eV
+    Iter 4 | N=110 | Test MAE=3.03 eV
+    Iter 5 | N=125 | Test MAE=2.23 eV
+    Iter 6 | N=140 | Test MAE=2.40 eV
+
+  --- C_uncertainty ---
+    Iter 0 | N=50 | Test MAE=3.04 eV
+    Iter 1 | N=65 | Test MAE=2.96 eV
+    Iter 2 | N=80 | Test MAE=2.65 eV
+    Iter 3 | N=95 | Test MAE=2.30 eV
+    Iter 4 | N=110 | Test MAE=2.93 eV
+    Iter 5 | N=125 | Test MAE=3.21 eV
+    Iter 6 | N=140 | Test MAE=2.35 eV
+
+  --- E_diversity ---
+    Iter 0 | N=50 | Test MAE=3.04 eV
+    Iter 1 | N=65 | Test MAE=3.36 eV
+    Iter 2 | N=80 | Test MAE=2.87 eV
+    Iter 3 | N=95 | Test MAE=3.12 eV
+    Iter 4 | N=110 | Test MAE=2.36 eV
+    Iter 5 | N=125 | Test MAE=2.16 eV
+    Iter 6 | N=140 | Test MAE=2.92 eV
+
+  --- G_hybrid_weighted ---
+    Iter 0 | N=50 | Test MAE=3.04 eV
+    Iter 1 | N=65 | Test MAE=2.96 eV
+    Iter 2 | N=80 | Test MAE=2.43 eV
+    Iter 3 | N=95 | Test MAE=2.15 eV
+    Iter 4 | N=110 | Test MAE=2.67 eV
+    Iter 5 | N=125 | Test MAE=2.46 eV
+    Iter 6 | N=140 | Test MAE=2.90 eV
+
+  --- H_hybrid_twostage ---
+    Iter 0 | N=50 | Test MAE=3.04 eV
+    Iter 1 | N=65 | Test MAE=3.32 eV
+    Iter 2 | N=80 | Test MAE=2.99 eV
+    Iter 3 | N=95 | Test MAE=2.60 eV
+    Iter 4 | N=110 | Test MAE=2.30 eV
+    Iter 5 | N=125 | Test MAE=2.32 eV
+    Iter 6 | N=140 | Test MAE=2.31 eV
+
+############################################################
+#  zeolite
+############################################################
+  200 structures, Energy: [-274.8, -175.2] eV
+
+  --- A_random ---
+    Iter 0 | N=50 | Test MAE=1.27 eV
+    Iter 1 | N=65 | Test MAE=1.36 eV
+    Iter 2 | N=80 | Test MAE=1.60 eV
+    Iter 3 | N=95 | Test MAE=4.40 eV
+    Iter 4 | N=110 | Test MAE=1.00 eV
+    Iter 5 | N=125 | Test MAE=1.87 eV
+    Iter 6 | N=140 | Test MAE=1.90 eV
+
+  --- C_uncertainty ---
+    Iter 0 | N=50 | Test MAE=1.27 eV
+    Iter 1 | N=65 | Test MAE=2.67 eV
+    Iter 2 | N=80 | Test MAE=4.23 eV
+    Iter 3 | N=95 | Test MAE=5.26 eV
+    Iter 4 | N=110 | Test MAE=1.20 eV
+    Iter 5 | N=125 | Test MAE=1.46 eV
+    Iter 6 | N=140 | Test MAE=0.54 eV
+
+  --- E_diversity ---
+    Iter 0 | N=50 | Test MAE=1.27 eV
+    Iter 1 | N=65 | Test MAE=1.14 eV
+    Iter 2 | N=80 | Test MAE=3.46 eV
+    Iter 3 | N=95 | Test MAE=1.81 eV
+    Iter 4 | N=110 | Test MAE=2.00 eV
+    Iter 5 | N=125 | Test MAE=2.73 eV
+    Iter 6 | N=140 | Test MAE=0.74 eV
+
+  --- G_hybrid_weighted ---
+    Iter 0 | N=50 | Test MAE=1.27 eV
+    Iter 1 | N=65 | Test MAE=2.67 eV
+    Iter 2 | N=80 | Test MAE=2.81 eV
+    Iter 3 | N=95 | Test MAE=1.06 eV
+    Iter 4 | N=110 | Test MAE=1.24 eV
+    Iter 5 | N=125 | Test MAE=1.19 eV
+    Iter 6 | N=140 | Test MAE=0.45 eV
+
+  --- H_hybrid_twostage ---
+    Iter 0 | N=50 | Test MAE=1.27 eV
+    Iter 1 | N=65 | Test MAE=1.14 eV
+    Iter 2 | N=80 | Test MAE=1.41 eV
+    Iter 3 | N=95 | Test MAE=1.71 eV
+    Iter 4 | N=110 | Test MAE=2.96 eV
+    Iter 5 | N=125 | Test MAE=1.09 eV
+    Iter 6 | N=140 | Test MAE=0.37 eV
+
+======================================================================
+  FINAL RESULTS — 6 Systems x 5 Strategies
+======================================================================
+
+--- FeNiCrCoCu_HEA ---
+  Strategy                         Best MAE  vs Random
+  A_random                             0.63      +0.0%
+  C_uncertainty                        0.56     +10.9%
+  E_diversity                          0.93     -47.4%
+  G_hybrid_weighted                    1.11     -76.1% <--
+  H_hybrid_twostage                    0.63      -0.4% <--
+
+--- MgO_surface ---
+  Strategy                         Best MAE  vs Random
+  A_random                             6.32      +0.0%
+  C_uncertainty                        6.45      -2.1%
+  E_diversity                          6.43      -1.7%
+  G_hybrid_weighted                    6.50      -2.8% <--
+  H_hybrid_twostage                    6.22      +1.7% <--
+
+--- Pt_CH_activation ---
+  Strategy                         Best MAE  vs Random
+  A_random                             1.44      +0.0%
+  C_uncertainty                        1.48      -2.6%
+  E_diversity                          1.43      +0.9%
+  G_hybrid_weighted                    1.47      -2.2% <--
+  H_hybrid_twostage                    1.47      -1.9% <--
+
+--- Zr_oxide_amorphous ---
+  Strategy                         Best MAE  vs Random
+  A_random                            15.28      +0.0%
+  C_uncertainty                       15.16      +0.8%
+  E_diversity                         15.01      +1.7%
+  G_hybrid_weighted                   15.31      -0.2% <--
+  H_hybrid_twostage                   15.27      +0.0% <--
+
+--- liquid_water ---
+  Strategy                         Best MAE  vs Random
+  A_random                             2.23      +0.0%
+  C_uncertainty                        2.30      -3.2%
+  E_diversity                          2.16      +3.2%
+  G_hybrid_weighted                    2.15      +3.9% <--
+  H_hybrid_twostage                    2.30      -3.0% <--
+
+--- zeolite ---
+  Strategy                         Best MAE  vs Random
+  A_random                             1.00      +0.0%
+  C_uncertainty                        0.54     +46.1%
+  E_diversity                          0.74     +26.2%
+  G_hybrid_weighted                    0.45     +55.4% <--
+  H_hybrid_twostage                    0.37     +63.0% <--
+
+======================================================================
+  CROSS-SYSTEM SUMMARY
+======================================================================
+  A_random                      +0.0% +/- 0.0%  (better in 0/6 systems)
+  C_uncertainty                 +8.3% +/- 17.6%  (better in 3/6 systems)
+  E_diversity                   -2.8% +/- 22.0%  (better in 4/6 systems)
+  G_hybrid_weighted             -3.7% +/- 38.3%  (better in 2/6 systems)
+  H_hybrid_twostage             +9.9% +/- 23.8%  (better in 3/6 systems)
+
+  Done! Results in results/ms25_*_seed42.csv
+=== Seed 42 done, exit code: 0 ===
+=== Starting seed 52 ===
+Systems: ['FeNiCrCoCu_HEA', 'MgO_surface', 'Pt_CH_activation', 'Zr_oxide_amorphous', 'liquid_water', 'zeolite']
+Seed: 52
+
+############################################################
+#  FeNiCrCoCu_HEA
+############################################################
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+  300 structures, Energy: [-204.9, -45.2] eV
+
+  --- A_random ---
+    Iter 0 | N=50 | Test MAE=3.05 eV
+    Iter 1 | N=65 | Test MAE=2.89 eV
+    Iter 2 | N=80 | Test MAE=1.97 eV
+    Iter 3 | N=95 | Test MAE=0.85 eV
+    Iter 4 | N=110 | Test MAE=2.88 eV
+    Iter 5 | N=125 | Test MAE=0.50 eV
+    Iter 6 | N=140 | Test MAE=0.98 eV
+    Iter 7 | N=155 | Test MAE=0.45 eV
+    Iter 8 | N=170 | Test MAE=0.58 eV
+
+  --- C_uncertainty ---
+    Iter 0 | N=50 | Test MAE=3.05 eV
+    Iter 1 | N=65 | Test MAE=3.62 eV
+    Iter 2 | N=80 | Test MAE=2.12 eV
+    Iter 3 | N=95 | Test MAE=2.37 eV
+    Iter 4 | N=110 | Test MAE=1.12 eV
+    Iter 5 | N=125 | Test MAE=0.75 eV
+    Iter 6 | N=140 | Test MAE=1.54 eV
+    Iter 7 | N=155 | Test MAE=0.75 eV
+    Iter 8 | N=170 | Test MAE=0.83 eV
+
+  --- E_diversity ---
+    Iter 0 | N=50 | Test MAE=3.05 eV
+    Iter 1 | N=65 | Test MAE=2.62 eV
+    Iter 2 | N=80 | Test MAE=0.87 eV
+    Iter 3 | N=95 | Test MAE=0.82 eV
+    Iter 4 | N=110 | Test MAE=0.88 eV
+    Iter 5 | N=125 | Test MAE=2.12 eV
+    Iter 6 | N=140 | Test MAE=0.45 eV
+    Iter 7 | N=155 | Test MAE=0.80 eV
+    Iter 8 | N=170 | Test MAE=0.43 eV
+
+  --- G_hybrid_weighted ---
+    Iter 0 | N=50 | Test MAE=3.05 eV
+    Iter 1 | N=65 | Test MAE=3.62 eV
+    Iter 2 | N=80 | Test MAE=1.67 eV
+    Iter 3 | N=95 | Test MAE=1.17 eV
+    Iter 4 | N=110 | Test MAE=1.79 eV
+    Iter 5 | N=125 | Test MAE=1.12 eV
+    Iter 6 | N=140 | Test MAE=0.48 eV
+    Iter 7 | N=155 | Test MAE=0.50 eV
+    Iter 8 | N=170 | Test MAE=1.29 eV
+
+  --- H_hybrid_twostage ---
+    Iter 0 | N=50 | Test MAE=3.05 eV
+    Iter 1 | N=65 | Test MAE=2.62 eV
+    Iter 2 | N=80 | Test MAE=2.41 eV
+    Iter 3 | N=95 | Test MAE=2.31 eV
+    Iter 4 | N=110 | Test MAE=1.44 eV
+    Iter 5 | N=125 | Test MAE=0.82 eV
+    Iter 6 | N=140 | Test MAE=0.58 eV
+    Iter 7 | N=155 | Test MAE=2.97 eV
+    Iter 8 | N=170 | Test MAE=0.78 eV
+
+############################################################
+#  MgO_surface
+############################################################
+  300 structures, Energy: [-488.6, -77.2] eV
+
+  --- A_random ---
+    Iter 0 | N=50 | Test MAE=5.42 eV
+    Iter 1 | N=65 | Test MAE=5.56 eV
+    Iter 2 | N=80 | Test MAE=5.58 eV
+    Iter 3 | N=95 | Test MAE=5.19 eV
+    Iter 4 | N=110 | Test MAE=5.30 eV
+    Iter 5 | N=125 | Test MAE=5.65 eV
+    Iter 6 | N=140 | Test MAE=5.08 eV
+    Iter 7 | N=155 | Test MAE=5.77 eV
+    Iter 8 | N=170 | Test MAE=4.96 eV
+
+  --- C_uncertainty ---
+    Iter 0 | N=50 | Test MAE=5.42 eV
+    Iter 1 | N=65 | Test MAE=5.35 eV
+    Iter 2 | N=80 | Test MAE=5.56 eV
+    Iter 3 | N=95 | Test MAE=5.21 eV
+    Iter 4 | N=110 | Test MAE=5.38 eV
+    Iter 5 | N=125 | Test MAE=6.17 eV
+    Iter 6 | N=140 | Test MAE=5.34 eV
+    Iter 7 | N=155 | Test MAE=5.61 eV
+    Iter 8 | N=170 | Test MAE=5.20 eV
+
+  --- E_diversity ---
+    Iter 0 | N=50 | Test MAE=5.42 eV
+    Iter 1 | N=65 | Test MAE=5.39 eV
+    Iter 2 | N=80 | Test MAE=5.24 eV
+    Iter 3 | N=95 | Test MAE=5.57 eV
+    Iter 4 | N=110 | Test MAE=5.79 eV
+    Iter 5 | N=125 | Test MAE=5.37 eV
+    Iter 6 | N=140 | Test MAE=5.62 eV
+    Iter 7 | N=155 | Test MAE=5.45 eV
+    Iter 8 | N=170 | Test MAE=6.23 eV
+
+  --- G_hybrid_weighted ---
+    Iter 0 | N=50 | Test MAE=5.42 eV
+    Iter 1 | N=65 | Test MAE=5.35 eV
+    Iter 2 | N=80 | Test MAE=5.20 eV
+    Iter 3 | N=95 | Test MAE=5.21 eV
+    Iter 4 | N=110 | Test MAE=5.56 eV
+    Iter 5 | N=125 | Test MAE=5.39 eV
+    Iter 6 | N=140 | Test MAE=5.32 eV
+    Iter 7 | N=155 | Test MAE=5.10 eV
+    Iter 8 | N=170 | Test MAE=5.40 eV
+
+  --- H_hybrid_twostage ---
+    Iter 0 | N=50 | Test MAE=5.42 eV
+    Iter 1 | N=65 | Test MAE=5.62 eV
+    Iter 2 | N=80 | Test MAE=5.58 eV
+    Iter 3 | N=95 | Test MAE=5.48 eV
+    Iter 4 | N=110 | Test MAE=5.61 eV
+    Iter 5 | N=125 | Test MAE=5.39 eV
+    Iter 6 | N=140 | Test MAE=5.52 eV
+    Iter 7 | N=155 | Test MAE=5.37 eV
+    Iter 8 | N=170 | Test MAE=5.83 eV
+
+############################################################
+#  Pt_CH_activation
+############################################################
+  300 structures, Energy: [-284.8, -84.0] eV
+
+  --- A_random ---
+    Iter 0 | N=50 | Test MAE=1.91 eV
+    Iter 1 | N=65 | Test MAE=2.31 eV
+    Iter 2 | N=80 | Test MAE=1.83 eV
+    Iter 3 | N=95 | Test MAE=1.77 eV
+    Iter 4 | N=110 | Test MAE=1.76 eV
+    Iter 5 | N=125 | Test MAE=1.70 eV
+    Iter 6 | N=140 | Test MAE=1.88 eV
+    Iter 7 | N=155 | Test MAE=1.92 eV
+    Iter 8 | N=170 | Test MAE=1.67 eV
+
+  --- C_uncertainty ---
+    Iter 0 | N=50 | Test MAE=1.91 eV
+    Iter 1 | N=65 | Test MAE=1.84 eV
+    Iter 2 | N=80 | Test MAE=2.03 eV
+    Iter 3 | N=95 | Test MAE=1.95 eV
+    Iter 4 | N=110 | Test MAE=1.86 eV
+    Iter 5 | N=125 | Test MAE=1.65 eV
+    Iter 6 | N=140 | Test MAE=2.42 eV
+    Iter 7 | N=155 | Test MAE=1.90 eV
+    Iter 8 | N=170 | Test MAE=1.88 eV
+
+  --- E_diversity ---
+    Iter 0 | N=50 | Test MAE=1.91 eV
+    Iter 1 | N=65 | Test MAE=1.96 eV
+    Iter 2 | N=80 | Test MAE=1.78 eV
+    Iter 3 | N=95 | Test MAE=1.69 eV
+    Iter 4 | N=110 | Test MAE=1.74 eV
+    Iter 5 | N=125 | Test MAE=1.57 eV
+    Iter 6 | N=140 | Test MAE=1.97 eV
+    Iter 7 | N=155 | Test MAE=1.61 eV
+    Iter 8 | N=170 | Test MAE=1.66 eV
+
+  --- G_hybrid_weighted ---
+    Iter 0 | N=50 | Test MAE=1.91 eV
+    Iter 1 | N=65 | Test MAE=1.84 eV
+    Iter 2 | N=80 | Test MAE=1.74 eV
+    Iter 3 | N=95 | Test MAE=1.79 eV
+    Iter 4 | N=110 | Test MAE=1.68 eV
+    Iter 5 | N=125 | Test MAE=1.89 eV
+    Iter 6 | N=140 | Test MAE=1.72 eV
+    Iter 7 | N=155 | Test MAE=1.76 eV
+    Iter 8 | N=170 | Test MAE=2.00 eV
+
+  --- H_hybrid_twostage ---
+    Iter 0 | N=50 | Test MAE=1.91 eV
+    Iter 1 | N=65 | Test MAE=2.00 eV
+    Iter 2 | N=80 | Test MAE=2.09 eV
+    Iter 3 | N=95 | Test MAE=1.91 eV
+    Iter 4 | N=110 | Test MAE=1.62 eV
+    Iter 5 | N=125 | Test MAE=2.01 eV
+    Iter 6 | N=140 | Test MAE=1.86 eV
+    Iter 7 | N=155 | Test MAE=1.84 eV
+    Iter 8 | N=170 | Test MAE=1.77 eV
+
+############################################################
+#  Zr_oxide_amorphous
+############################################################
+  300 structures, Energy: [-518.1, -144.9] eV
+
+  --- A_random ---
+    Iter 0 | N=50 | Test MAE=16.95 eV
+    Iter 1 | N=65 | Test MAE=16.80 eV
+    Iter 2 | N=80 | Test MAE=16.23 eV
+    Iter 3 | N=95 | Test MAE=17.88 eV
+    Iter 4 | N=110 | Test MAE=16.00 eV
+    Iter 5 | N=125 | Test MAE=17.95 eV
+    Iter 6 | N=140 | Test MAE=16.75 eV
+    Iter 7 | N=155 | Test MAE=16.19 eV
+    Iter 8 | N=170 | Test MAE=16.65 eV
+
+  --- C_uncertainty ---
+    Iter 0 | N=50 | Test MAE=16.95 eV
+    Iter 1 | N=65 | Test MAE=17.03 eV
+    Iter 2 | N=80 | Test MAE=16.73 eV
+    Iter 3 | N=95 | Test MAE=16.58 eV
+    Iter 4 | N=110 | Test MAE=16.84 eV
+    Iter 5 | N=125 | Test MAE=17.41 eV
+    Iter 6 | N=140 | Test MAE=16.63 eV
+    Iter 7 | N=155 | Test MAE=16.61 eV
+    Iter 8 | N=170 | Test MAE=17.12 eV
+
+  --- E_diversity ---
+    Iter 0 | N=50 | Test MAE=16.95 eV
+    Iter 1 | N=65 | Test MAE=17.61 eV
+    Iter 2 | N=80 | Test MAE=16.87 eV
+    Iter 3 | N=95 | Test MAE=16.46 eV
+    Iter 4 | N=110 | Test MAE=16.98 eV
+    Iter 5 | N=125 | Test MAE=16.49 eV
+    Iter 6 | N=140 | Test MAE=16.37 eV
+    Iter 7 | N=155 | Test MAE=16.80 eV
+    Iter 8 | N=170 | Test MAE=16.97 eV
+
+  --- G_hybrid_weighted ---
+    Iter 0 | N=50 | Test MAE=16.95 eV
+    Iter 1 | N=65 | Test MAE=17.03 eV
+    Iter 2 | N=80 | Test MAE=16.76 eV
+    Iter 3 | N=95 | Test MAE=16.47 eV
+    Iter 4 | N=110 | Test MAE=16.36 eV
+    Iter 5 | N=125 | Test MAE=17.03 eV
+    Iter 6 | N=140 | Test MAE=16.77 eV
+    Iter 7 | N=155 | Test MAE=16.59 eV
+    Iter 8 | N=170 | Test MAE=16.95 eV
+
+  --- H_hybrid_twostage ---
+    Iter 0 | N=50 | Test MAE=16.95 eV
+    Iter 1 | N=65 | Test MAE=17.31 eV
+    Iter 2 | N=80 | Test MAE=18.38 eV
+    Iter 3 | N=95 | Test MAE=16.70 eV
+    Iter 4 | N=110 | Test MAE=17.07 eV
+    Iter 5 | N=125 | Test MAE=16.50 eV
+    Iter 6 | N=140 | Test MAE=17.86 eV
+    Iter 7 | N=155 | Test MAE=16.51 eV
+    Iter 8 | N=170 | Test MAE=17.11 eV
+
+############################################################
+#  liquid_water
+############################################################
+  200 structures, Energy: [-186.6, -38.3] eV
+
+  --- A_random ---
+    Iter 0 | N=50 | Test MAE=3.17 eV
+    Iter 1 | N=65 | Test MAE=3.80 eV
+    Iter 2 | N=80 | Test MAE=2.66 eV
+    Iter 3 | N=95 | Test MAE=2.25 eV
+    Iter 4 | N=110 | Test MAE=2.12 eV
+    Iter 5 | N=125 | Test MAE=2.93 eV
+    Iter 6 | N=140 | Test MAE=3.76 eV
+
+  --- C_uncertainty ---
+    Iter 0 | N=50 | Test MAE=3.17 eV
+    Iter 1 | N=65 | Test MAE=3.24 eV
+    Iter 2 | N=80 | Test MAE=3.19 eV
+    Iter 3 | N=95 | Test MAE=2.53 eV
+    Iter 4 | N=110 | Test MAE=3.23 eV
+    Iter 5 | N=125 | Test MAE=4.85 eV
+    Iter 6 | N=140 | Test MAE=2.06 eV
+
+  --- E_diversity ---
+    Iter 0 | N=50 | Test MAE=3.17 eV
+    Iter 1 | N=65 | Test MAE=3.46 eV
+    Iter 2 | N=80 | Test MAE=2.63 eV
+    Iter 3 | N=95 | Test MAE=2.25 eV
+    Iter 4 | N=110 | Test MAE=2.37 eV
+    Iter 5 | N=125 | Test MAE=2.53 eV
+    Iter 6 | N=140 | Test MAE=2.47 eV
+
+  --- G_hybrid_weighted ---
+    Iter 0 | N=50 | Test MAE=3.17 eV
+    Iter 1 | N=65 | Test MAE=3.24 eV
+    Iter 2 | N=80 | Test MAE=3.28 eV
+    Iter 3 | N=95 | Test MAE=3.42 eV
+    Iter 4 | N=110 | Test MAE=2.15 eV
+    Iter 5 | N=125 | Test MAE=4.47 eV
+    Iter 6 | N=140 | Test MAE=2.43 eV
+
+  --- H_hybrid_twostage ---
+    Iter 0 | N=50 | Test MAE=3.17 eV
+    Iter 1 | N=65 | Test MAE=3.32 eV
+    Iter 2 | N=80 | Test MAE=2.32 eV
+    Iter 3 | N=95 | Test MAE=2.22 eV
+    Iter 4 | N=110 | Test MAE=4.03 eV
+    Iter 5 | N=125 | Test MAE=2.84 eV
+    Iter 6 | N=140 | Test MAE=2.34 eV
+
+############################################################
+#  zeolite
+############################################################
+  200 structures, Energy: [-274.8, -175.2] eV
+
+  --- A_random ---
+    Iter 0 | N=50 | Test MAE=1.03 eV
+    Iter 1 | N=65 | Test MAE=0.72 eV
+    Iter 2 | N=80 | Test MAE=0.91 eV
+    Iter 3 | N=95 | Test MAE=2.57 eV
+    Iter 4 | N=110 | Test MAE=1.23 eV
+    Iter 5 | N=125 | Test MAE=2.01 eV
+    Iter 6 | N=140 | Test MAE=1.04 eV
+
+  --- C_uncertainty ---
+    Iter 0 | N=50 | Test MAE=1.03 eV
+    Iter 1 | N=65 | Test MAE=0.75 eV
+    Iter 2 | N=80 | Test MAE=1.01 eV
+    Iter 3 | N=95 | Test MAE=0.79 eV
+    Iter 4 | N=110 | Test MAE=1.44 eV
+    Iter 5 | N=125 | Test MAE=1.51 eV
+    Iter 6 | N=140 | Test MAE=1.14 eV
+
+  --- E_diversity ---
+    Iter 0 | N=50 | Test MAE=1.03 eV
+    Iter 1 | N=65 | Test MAE=1.10 eV
+    Iter 2 | N=80 | Test MAE=1.56 eV
+    Iter 3 | N=95 | Test MAE=0.77 eV
+    Iter 4 | N=110 | Test MAE=0.66 eV
+    Iter 5 | N=125 | Test MAE=1.02 eV
+    Iter 6 | N=140 | Test MAE=0.52 eV
+
+  --- G_hybrid_weighted ---
+    Iter 0 | N=50 | Test MAE=1.03 eV
+    Iter 1 | N=65 | Test MAE=0.75 eV
+    Iter 2 | N=80 | Test MAE=0.62 eV
+    Iter 3 | N=95 | Test MAE=0.76 eV
+    Iter 4 | N=110 | Test MAE=1.47 eV
+    Iter 5 | N=125 | Test MAE=0.91 eV
+    Iter 6 | N=140 | Test MAE=0.49 eV
+
+  --- H_hybrid_twostage ---
+    Iter 0 | N=50 | Test MAE=1.03 eV
+    Iter 1 | N=65 | Test MAE=0.63 eV
+    Iter 2 | N=80 | Test MAE=1.13 eV
+    Iter 3 | N=95 | Test MAE=0.67 eV
+    Iter 4 | N=110 | Test MAE=1.38 eV
+    Iter 5 | N=125 | Test MAE=1.73 eV
+    Iter 6 | N=140 | Test MAE=2.42 eV
+
+======================================================================
+  FINAL RESULTS — 6 Systems x 5 Strategies
+======================================================================
+
+--- FeNiCrCoCu_HEA ---
+  Strategy                         Best MAE  vs Random
+  A_random                             0.45      +0.0%
+  C_uncertainty                        0.75     -64.9%
+  E_diversity                          0.43      +5.1%
+  G_hybrid_weighted                    0.48      -5.1% <--
+  H_hybrid_twostage                    0.58     -27.6% <--
+
+--- MgO_surface ---
+  Strategy                         Best MAE  vs Random
+  A_random                             4.96      +0.0%
+  C_uncertainty                        5.20      -4.7%
+  E_diversity                          5.24      -5.7%
+  G_hybrid_weighted                    5.10      -2.8% <--
+  H_hybrid_twostage                    5.37      -8.3% <--
+
+--- Pt_CH_activation ---
+  Strategy                         Best MAE  vs Random
+  A_random                             1.67      +0.0%
+  C_uncertainty                        1.65      +1.1%
+  E_diversity                          1.57      +6.1%
+  G_hybrid_weighted                    1.68      -0.6% <--
+  H_hybrid_twostage                    1.62      +3.4% <--
+
+--- Zr_oxide_amorphous ---
+  Strategy                         Best MAE  vs Random
+  A_random                            16.00      +0.0%
+  C_uncertainty                       16.58      -3.6%
+  E_diversity                         16.37      -2.3%
+  G_hybrid_weighted                   16.36      -2.3% <--
+  H_hybrid_twostage                   16.50      -3.2% <--
+
+--- liquid_water ---
+  Strategy                         Best MAE  vs Random
+  A_random                             2.12      +0.0%
+  C_uncertainty                        2.06      +2.8%
+  E_diversity                          2.25      -5.8%
+  G_hybrid_weighted                    2.15      -1.5% <--
+  H_hybrid_twostage                    2.22      -4.4% <--
+
+--- zeolite ---
+  Strategy                         Best MAE  vs Random
+  A_random                             0.72      +0.0%
+  C_uncertainty                        0.75      -4.2%
+  E_diversity                          0.52     +27.3%
+  G_hybrid_weighted                    0.49     +32.1% <--
+  H_hybrid_twostage                    0.63     +13.3% <--
+
+======================================================================
+  CROSS-SYSTEM SUMMARY
+======================================================================
+  A_random                      +0.0% +/- 0.0%  (better in 0/6 systems)
+  C_uncertainty                -12.2% +/- 23.7%  (better in 2/6 systems)
+  E_diversity                   +4.1% +/- 11.4%  (better in 3/6 systems)
+  G_hybrid_weighted             +3.3% +/- 13.0%  (better in 1/6 systems)
+  H_hybrid_twostage             -4.4% +/- 12.5%  (better in 2/6 systems)
+
+  Done! Results in results/ms25_*_seed52.csv
+=== Seed 52 done, exit code: 0 ===
+=== Starting seed 62 ===
+Systems: ['FeNiCrCoCu_HEA', 'MgO_surface', 'Pt_CH_activation', 'Zr_oxide_amorphous', 'liquid_water', 'zeolite']
+Seed: 62
+
+############################################################
+#  FeNiCrCoCu_HEA
+############################################################
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+  300 structures, Energy: [-204.9, -45.2] eV
+
+  --- A_random ---
+    Iter 0 | N=50 | Test MAE=5.10 eV
+    Iter 1 | N=65 | Test MAE=4.78 eV
+    Iter 2 | N=80 | Test MAE=3.27 eV
+    Iter 3 | N=95 | Test MAE=2.27 eV
+    Iter 4 | N=110 | Test MAE=1.58 eV
+    Iter 5 | N=125 | Test MAE=1.03 eV
+    Iter 6 | N=140 | Test MAE=1.00 eV
+    Iter 7 | N=155 | Test MAE=0.94 eV
+    Iter 8 | N=170 | Test MAE=1.53 eV
+
+  --- C_uncertainty ---
+    Iter 0 | N=50 | Test MAE=5.10 eV
+    Iter 1 | N=65 | Test MAE=4.97 eV
+    Iter 2 | N=80 | Test MAE=2.42 eV
+    Iter 3 | N=95 | Test MAE=2.56 eV
+    Iter 4 | N=110 | Test MAE=2.11 eV
+    Iter 5 | N=125 | Test MAE=0.61 eV
+    Iter 6 | N=140 | Test MAE=1.64 eV
+    Iter 7 | N=155 | Test MAE=0.48 eV
+    Iter 8 | N=170 | Test MAE=0.50 eV
+
+  --- E_diversity ---
+    Iter 0 | N=50 | Test MAE=5.10 eV
+    Iter 1 | N=65 | Test MAE=5.40 eV
+    Iter 2 | N=80 | Test MAE=1.95 eV
+    Iter 3 | N=95 | Test MAE=1.58 eV
+    Iter 4 | N=110 | Test MAE=1.65 eV
+    Iter 5 | N=125 | Test MAE=1.14 eV
+    Iter 6 | N=140 | Test MAE=1.35 eV
+    Iter 7 | N=155 | Test MAE=0.50 eV
+    Iter 8 | N=170 | Test MAE=0.66 eV
+
+  --- G_hybrid_weighted ---
+    Iter 0 | N=50 | Test MAE=5.10 eV
+    Iter 1 | N=65 | Test MAE=4.97 eV
+    Iter 2 | N=80 | Test MAE=3.08 eV
+    Iter 3 | N=95 | Test MAE=1.43 eV
+    Iter 4 | N=110 | Test MAE=1.84 eV
+    Iter 5 | N=125 | Test MAE=0.96 eV
+    Iter 6 | N=140 | Test MAE=0.88 eV
+    Iter 7 | N=155 | Test MAE=0.61 eV
+    Iter 8 | N=170 | Test MAE=0.58 eV
+
+  --- H_hybrid_twostage ---
+    Iter 0 | N=50 | Test MAE=5.10 eV
+    Iter 1 | N=65 | Test MAE=5.17 eV
+    Iter 2 | N=80 | Test MAE=2.24 eV
+    Iter 3 | N=95 | Test MAE=1.28 eV
+    Iter 4 | N=110 | Test MAE=1.19 eV
+    Iter 5 | N=125 | Test MAE=0.65 eV
+    Iter 6 | N=140 | Test MAE=0.82 eV
+    Iter 7 | N=155 | Test MAE=0.96 eV
+    Iter 8 | N=170 | Test MAE=1.60 eV
+
+############################################################
+#  MgO_surface
+############################################################
+  300 structures, Energy: [-488.6, -77.2] eV
+
+  --- A_random ---
+    Iter 0 | N=50 | Test MAE=7.06 eV
+    Iter 1 | N=65 | Test MAE=8.73 eV
+    Iter 2 | N=80 | Test MAE=6.88 eV
+    Iter 3 | N=95 | Test MAE=6.21 eV
+    Iter 4 | N=110 | Test MAE=6.82 eV
+    Iter 5 | N=125 | Test MAE=6.85 eV
+    Iter 6 | N=140 | Test MAE=6.23 eV
+    Iter 7 | N=155 | Test MAE=6.52 eV
+    Iter 8 | N=170 | Test MAE=7.68 eV
+
+  --- C_uncertainty ---
+    Iter 0 | N=50 | Test MAE=7.06 eV
+    Iter 1 | N=65 | Test MAE=7.20 eV
+    Iter 2 | N=80 | Test MAE=7.36 eV
+    Iter 3 | N=95 | Test MAE=6.70 eV
+    Iter 4 | N=110 | Test MAE=6.47 eV
+    Iter 5 | N=125 | Test MAE=7.27 eV
+    Iter 6 | N=140 | Test MAE=7.17 eV
+    Iter 7 | N=155 | Test MAE=7.03 eV
+    Iter 8 | N=170 | Test MAE=7.16 eV
+
+  --- E_diversity ---
+    Iter 0 | N=50 | Test MAE=7.06 eV
+    Iter 1 | N=65 | Test MAE=7.33 eV
+    Iter 2 | N=80 | Test MAE=6.50 eV
+    Iter 3 | N=95 | Test MAE=7.50 eV
+    Iter 4 | N=110 | Test MAE=6.68 eV
+    Iter 5 | N=125 | Test MAE=6.55 eV
+    Iter 6 | N=140 | Test MAE=7.57 eV
+    Iter 7 | N=155 | Test MAE=7.43 eV
+    Iter 8 | N=170 | Test MAE=6.59 eV
+
+  --- G_hybrid_weighted ---
+    Iter 0 | N=50 | Test MAE=7.06 eV
+    Iter 1 | N=65 | Test MAE=7.20 eV
+    Iter 2 | N=80 | Test MAE=7.31 eV
+    Iter 3 | N=95 | Test MAE=6.97 eV
+    Iter 4 | N=110 | Test MAE=6.48 eV
+    Iter 5 | N=125 | Test MAE=7.39 eV
+    Iter 6 | N=140 | Test MAE=6.18 eV
+    Iter 7 | N=155 | Test MAE=7.02 eV
+    Iter 8 | N=170 | Test MAE=6.63 eV
+
+  --- H_hybrid_twostage ---
+    Iter 0 | N=50 | Test MAE=7.06 eV
+    Iter 1 | N=65 | Test MAE=6.94 eV
+    Iter 2 | N=80 | Test MAE=6.79 eV
+    Iter 3 | N=95 | Test MAE=6.53 eV
+    Iter 4 | N=110 | Test MAE=7.22 eV
+    Iter 5 | N=125 | Test MAE=7.03 eV
+    Iter 6 | N=140 | Test MAE=6.89 eV
+    Iter 7 | N=155 | Test MAE=6.83 eV
+    Iter 8 | N=170 | Test MAE=6.62 eV
+
+############################################################
+#  Pt_CH_activation
+############################################################
+  300 structures, Energy: [-284.8, -84.0] eV
+
+  --- A_random ---
+    Iter 0 | N=50 | Test MAE=2.20 eV
+    Iter 1 | N=65 | Test MAE=1.87 eV
+    Iter 2 | N=80 | Test MAE=2.23 eV
+    Iter 3 | N=95 | Test MAE=1.63 eV
+    Iter 4 | N=110 | Test MAE=1.56 eV
+    Iter 5 | N=125 | Test MAE=1.65 eV
+    Iter 6 | N=140 | Test MAE=1.78 eV
+    Iter 7 | N=155 | Test MAE=1.89 eV
+    Iter 8 | N=170 | Test MAE=1.59 eV
+
+  --- C_uncertainty ---
+    Iter 0 | N=50 | Test MAE=2.20 eV
+    Iter 1 | N=65 | Test MAE=2.05 eV
+    Iter 2 | N=80 | Test MAE=1.70 eV
+    Iter 3 | N=95 | Test MAE=2.10 eV
+    Iter 4 | N=110 | Test MAE=1.67 eV
+    Iter 5 | N=125 | Test MAE=1.53 eV
+    Iter 6 | N=140 | Test MAE=1.61 eV
+    Iter 7 | N=155 | Test MAE=1.70 eV
+    Iter 8 | N=170 | Test MAE=2.44 eV
+
+  --- E_diversity ---
+    Iter 0 | N=50 | Test MAE=2.20 eV
+    Iter 1 | N=65 | Test MAE=1.68 eV
+    Iter 2 | N=80 | Test MAE=1.79 eV
+    Iter 3 | N=95 | Test MAE=1.83 eV
+    Iter 4 | N=110 | Test MAE=1.81 eV
+    Iter 5 | N=125 | Test MAE=1.91 eV
+    Iter 6 | N=140 | Test MAE=1.79 eV
+    Iter 7 | N=155 | Test MAE=1.59 eV
+    Iter 8 | N=170 | Test MAE=1.76 eV
+
+  --- G_hybrid_weighted ---
+    Iter 0 | N=50 | Test MAE=2.20 eV
+    Iter 1 | N=65 | Test MAE=2.05 eV
+    Iter 2 | N=80 | Test MAE=1.65 eV
+    Iter 3 | N=95 | Test MAE=1.90 eV
+    Iter 4 | N=110 | Test MAE=1.48 eV
+    Iter 5 | N=125 | Test MAE=1.92 eV
+    Iter 6 | N=140 | Test MAE=1.55 eV
+    Iter 7 | N=155 | Test MAE=1.89 eV
+    Iter 8 | N=170 | Test MAE=2.21 eV
+
+  --- H_hybrid_twostage ---
+    Iter 0 | N=50 | Test MAE=2.20 eV
+    Iter 1 | N=65 | Test MAE=1.78 eV
+    Iter 2 | N=80 | Test MAE=1.84 eV
+    Iter 3 | N=95 | Test MAE=1.88 eV
+    Iter 4 | N=110 | Test MAE=1.58 eV
+    Iter 5 | N=125 | Test MAE=2.42 eV
+    Iter 6 | N=140 | Test MAE=1.54 eV
+    Iter 7 | N=155 | Test MAE=1.67 eV
+    Iter 8 | N=170 | Test MAE=1.52 eV
+
+############################################################
+#  Zr_oxide_amorphous
+############################################################
+  300 structures, Energy: [-518.1, -144.9] eV
+
+  --- A_random ---
+    Iter 0 | N=50 | Test MAE=15.47 eV
+    Iter 1 | N=65 | Test MAE=15.86 eV
+    Iter 2 | N=80 | Test MAE=16.14 eV
+    Iter 3 | N=95 | Test MAE=15.62 eV
+    Iter 4 | N=110 | Test MAE=15.62 eV
+    Iter 5 | N=125 | Test MAE=15.58 eV
+    Iter 6 | N=140 | Test MAE=14.93 eV
+    Iter 7 | N=155 | Test MAE=16.12 eV
+    Iter 8 | N=170 | Test MAE=15.86 eV
+
+  --- C_uncertainty ---
+    Iter 0 | N=50 | Test MAE=15.47 eV
+    Iter 1 | N=65 | Test MAE=15.18 eV
+    Iter 2 | N=80 | Test MAE=16.05 eV
+    Iter 3 | N=95 | Test MAE=15.51 eV
+    Iter 4 | N=110 | Test MAE=16.25 eV
+    Iter 5 | N=125 | Test MAE=15.74 eV
+    Iter 6 | N=140 | Test MAE=15.34 eV
+    Iter 7 | N=155 | Test MAE=15.67 eV
+    Iter 8 | N=170 | Test MAE=17.17 eV
+
+  --- E_diversity ---
+    Iter 0 | N=50 | Test MAE=15.47 eV
+    Iter 1 | N=65 | Test MAE=15.02 eV
+    Iter 2 | N=80 | Test MAE=16.01 eV
+    Iter 3 | N=95 | Test MAE=16.23 eV
+    Iter 4 | N=110 | Test MAE=16.38 eV
+    Iter 5 | N=125 | Test MAE=15.41 eV
+    Iter 6 | N=140 | Test MAE=15.70 eV
+    Iter 7 | N=155 | Test MAE=15.99 eV
+    Iter 8 | N=170 | Test MAE=15.50 eV
+
+  --- G_hybrid_weighted ---
+    Iter 0 | N=50 | Test MAE=15.47 eV
+    Iter 1 | N=65 | Test MAE=15.18 eV
+    Iter 2 | N=80 | Test MAE=15.62 eV
+    Iter 3 | N=95 | Test MAE=15.12 eV
+    Iter 4 | N=110 | Test MAE=15.86 eV
+    Iter 5 | N=125 | Test MAE=15.57 eV
+    Iter 6 | N=140 | Test MAE=16.16 eV
+    Iter 7 | N=155 | Test MAE=15.48 eV
+    Iter 8 | N=170 | Test MAE=15.54 eV
+
+  --- H_hybrid_twostage ---
+    Iter 0 | N=50 | Test MAE=15.47 eV
+    Iter 1 | N=65 | Test MAE=15.11 eV
+    Iter 2 | N=80 | Test MAE=16.70 eV
+    Iter 3 | N=95 | Test MAE=15.07 eV
+    Iter 4 | N=110 | Test MAE=16.67 eV
+    Iter 5 | N=125 | Test MAE=16.43 eV
+    Iter 6 | N=140 | Test MAE=15.78 eV
+    Iter 7 | N=155 | Test MAE=15.63 eV
+    Iter 8 | N=170 | Test MAE=16.69 eV
+
+############################################################
+#  liquid_water
+############################################################
+  200 structures, Energy: [-186.6, -38.3] eV
+
+  --- A_random ---
+    Iter 0 | N=50 | Test MAE=3.30 eV
+    Iter 1 | N=65 | Test MAE=3.30 eV
+    Iter 2 | N=80 | Test MAE=4.66 eV
+    Iter 3 | N=95 | Test MAE=3.54 eV
+    Iter 4 | N=110 | Test MAE=3.03 eV
+    Iter 5 | N=125 | Test MAE=2.68 eV
+    Iter 6 | N=140 | Test MAE=3.65 eV
+
+  --- C_uncertainty ---
+    Iter 0 | N=50 | Test MAE=3.30 eV
+    Iter 1 | N=65 | Test MAE=2.57 eV
+    Iter 2 | N=80 | Test MAE=2.25 eV
+    Iter 3 | N=95 | Test MAE=1.93 eV
+    Iter 4 | N=110 | Test MAE=2.20 eV
+    Iter 5 | N=125 | Test MAE=2.84 eV
+    Iter 6 | N=140 | Test MAE=2.34 eV
+
+  --- E_diversity ---
+    Iter 0 | N=50 | Test MAE=3.30 eV
+    Iter 1 | N=65 | Test MAE=3.32 eV
+    Iter 2 | N=80 | Test MAE=4.05 eV
+    Iter 3 | N=95 | Test MAE=1.97 eV
+    Iter 4 | N=110 | Test MAE=2.41 eV
+    Iter 5 | N=125 | Test MAE=2.80 eV
+    Iter 6 | N=140 | Test MAE=2.28 eV
+
+  --- G_hybrid_weighted ---
+    Iter 0 | N=50 | Test MAE=3.30 eV
+    Iter 1 | N=65 | Test MAE=2.57 eV
+    Iter 2 | N=80 | Test MAE=2.13 eV
+    Iter 3 | N=95 | Test MAE=1.90 eV
+    Iter 4 | N=110 | Test MAE=1.79 eV
+    Iter 5 | N=125 | Test MAE=1.86 eV
+    Iter 6 | N=140 | Test MAE=3.32 eV
+
+  --- H_hybrid_twostage ---
+    Iter 0 | N=50 | Test MAE=3.30 eV
+    Iter 1 | N=65 | Test MAE=2.26 eV
+    Iter 2 | N=80 | Test MAE=5.04 eV
+    Iter 3 | N=95 | Test MAE=3.64 eV
+    Iter 4 | N=110 | Test MAE=2.17 eV
+    Iter 5 | N=125 | Test MAE=3.16 eV
+    Iter 6 | N=140 | Test MAE=1.75 eV
+
+############################################################
+#  zeolite
+############################################################
+  200 structures, Energy: [-274.8, -175.2] eV
+
+  --- A_random ---
+    Iter 0 | N=50 | Test MAE=4.30 eV
+    Iter 1 | N=65 | Test MAE=3.33 eV
+    Iter 2 | N=80 | Test MAE=1.88 eV
+    Iter 3 | N=95 | Test MAE=1.29 eV
+    Iter 4 | N=110 | Test MAE=0.57 eV
+    Iter 5 | N=125 | Test MAE=2.32 eV
+    Iter 6 | N=140 | Test MAE=1.75 eV
+
+  --- C_uncertainty ---
+    Iter 0 | N=50 | Test MAE=4.30 eV
+    Iter 1 | N=65 | Test MAE=2.26 eV
+    Iter 2 | N=80 | Test MAE=0.72 eV
+    Iter 3 | N=95 | Test MAE=5.15 eV
+    Iter 4 | N=110 | Test MAE=2.34 eV
+    Iter 5 | N=125 | Test MAE=1.63 eV
+    Iter 6 | N=140 | Test MAE=1.30 eV
+
+  --- E_diversity ---
+    Iter 0 | N=50 | Test MAE=4.30 eV
+    Iter 1 | N=65 | Test MAE=2.51 eV
+    Iter 2 | N=80 | Test MAE=3.64 eV
+    Iter 3 | N=95 | Test MAE=1.34 eV
+    Iter 4 | N=110 | Test MAE=2.65 eV
+    Iter 5 | N=125 | Test MAE=1.49 eV
+    Iter 6 | N=140 | Test MAE=1.46 eV
+
+  --- G_hybrid_weighted ---
+    Iter 0 | N=50 | Test MAE=4.30 eV
+    Iter 1 | N=65 | Test MAE=2.26 eV
+    Iter 2 | N=80 | Test MAE=4.77 eV
+    Iter 3 | N=95 | Test MAE=2.97 eV
+    Iter 4 | N=110 | Test MAE=4.07 eV
+    Iter 5 | N=125 | Test MAE=3.47 eV
+    Iter 6 | N=140 | Test MAE=0.89 eV
+
+  --- H_hybrid_twostage ---
+    Iter 0 | N=50 | Test MAE=4.30 eV
+    Iter 1 | N=65 | Test MAE=1.82 eV
+    Iter 2 | N=80 | Test MAE=2.99 eV
+    Iter 3 | N=95 | Test MAE=1.36 eV
+    Iter 4 | N=110 | Test MAE=2.29 eV
+    Iter 5 | N=125 | Test MAE=1.03 eV
+    Iter 6 | N=140 | Test MAE=2.46 eV
+
+======================================================================
+  FINAL RESULTS — 6 Systems x 5 Strategies
+======================================================================
+
+--- FeNiCrCoCu_HEA ---
+  Strategy                         Best MAE  vs Random
+  A_random                             0.94      +0.0%
+  C_uncertainty                        0.48     +48.8%
+  E_diversity                          0.50     +47.0%
+  G_hybrid_weighted                    0.58     +39.0% <--
+  H_hybrid_twostage                    0.65     +31.7% <--
+
+--- MgO_surface ---
+  Strategy                         Best MAE  vs Random
+  A_random                             6.21      +0.0%
+  C_uncertainty                        6.47      -4.3%
+  E_diversity                          6.50      -4.8%
+  G_hybrid_weighted                    6.18      +0.4% <--
+  H_hybrid_twostage                    6.53      -5.2% <--
+
+--- Pt_CH_activation ---
+  Strategy                         Best MAE  vs Random
+  A_random                             1.56      +0.0%
+  C_uncertainty                        1.53      +1.6%
+  E_diversity                          1.59      -2.1%
+  G_hybrid_weighted                    1.48      +4.7% <--
+  H_hybrid_twostage                    1.52      +2.5% <--
+
+--- Zr_oxide_amorphous ---
+  Strategy                         Best MAE  vs Random
+  A_random                            14.93      +0.0%
+  C_uncertainty                       15.18      -1.7%
+  E_diversity                         15.02      -0.7%
+  G_hybrid_weighted                   15.12      -1.3% <--
+  H_hybrid_twostage                   15.07      -1.0% <--
+
+--- liquid_water ---
+  Strategy                         Best MAE  vs Random
+  A_random                             2.68      +0.0%
+  C_uncertainty                        1.93     +28.0%
+  E_diversity                          1.97     +26.5%
+  G_hybrid_weighted                    1.79     +33.4% <--
+  H_hybrid_twostage                    1.75     +34.9% <--
+
+--- zeolite ---
+  Strategy                         Best MAE  vs Random
+  A_random                             0.57      +0.0%
+  C_uncertainty                        0.72     -26.9%
+  E_diversity                          1.34    -135.8%
+  G_hybrid_weighted                    0.89     -56.3% <--
+  H_hybrid_twostage                    1.03     -81.2% <--
+
+======================================================================
+  CROSS-SYSTEM SUMMARY
+======================================================================
+  A_random                      +0.0% +/- 0.0%  (better in 0/6 systems)
+  C_uncertainty                 +7.6% +/- 24.4%  (better in 3/6 systems)
+  E_diversity                  -11.6% +/- 58.5%  (better in 2/6 systems)
+  G_hybrid_weighted             +3.3% +/- 31.0%  (better in 4/6 systems)
+  H_hybrid_twostage             -3.0% +/- 38.3%  (better in 3/6 systems)
+
+  Done! Results in results/ms25_*_seed62.csv
+=== Seed 62 done, exit code: 0 ===
+ALL SEEDS COMPLETE

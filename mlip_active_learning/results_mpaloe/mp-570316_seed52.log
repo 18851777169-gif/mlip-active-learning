@@ -1,0 +1,27 @@
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+
+--- A_random ---
+  Iter 0 | N=20 | MAE=0.6735
+  Iter 1 | N=30 | MAE=0.7570
+  Iter 2 | N=40 | MAE=0.6258
+  Iter 3 | N=50 | MAE=1.7176
+  Iter 4 | N=60 | MAE=1.7693
+  Iter 5 | N=70 | MAE=3.0894
+
+--- G_hybrid_weighted ---
+  Iter 0 | N=20 | MAE=0.6735
+  Iter 1 | N=30 | MAE=0.7422
+  Iter 2 | N=40 | MAE=0.5219
+  Iter 3 | N=50 | MAE=0.4230
+  Iter 4 | N=60 | MAE=1.1189
+  Iter 5 | N=70 | MAE=0.9598
+
+--- I_aud_rank ---
+  Iter 0 | N=20 | MAE=0.6735
+  Iter 1 | N=30 | MAE=0.7673
+  Iter 2 | N=40 | MAE=0.5381
+  Iter 3 | N=50 | MAE=0.5407
+  Iter 4 | N=60 | MAE=1.6712
+  Iter 5 | N=70 | MAE=0.5716
+
+Done! mp-570316 seed=52

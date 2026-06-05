@@ -1,0 +1,10 @@
+Systems: ['FeNiCrCoCu_HEA', 'MgO_surface', 'Pt_CH_activation', 'Zr_oxide_amorphous', 'liquid_water', 'zeolite']
+Seed: 42
+
+############################################################
+#  FeNiCrCoCu_HEA
+############################################################
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+  300 structures, Energy: [-204.9, -45.2] eV
+
+  --- A_random ---

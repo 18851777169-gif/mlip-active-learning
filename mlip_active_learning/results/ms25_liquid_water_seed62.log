@@ -1,0 +1,10 @@
+Systems: ['liquid_water']
+Seed: 62
+
+############################################################
+#  liquid_water
+############################################################
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+  200 structures, Energy: [-186.6, -38.3] eV
+
+  --- A_random ---

@@ -1,0 +1,160 @@
+Seed: 62, Systems: ['liquid_water']
+
+############################################################
+#  liquid_water
+############################################################
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+  Computing MACE energies...
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+  Done in 52s
+
+  --- A_random ---
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 0 | N=50 | Test MAE=1.0940 eV
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 1 | N=65 | Test MAE=2.7062 eV
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 2 | N=80 | Test MAE=0.8287 eV
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 3 | N=95 | Test MAE=2.8734 eV
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 4 | N=110 | Test MAE=3.5050 eV
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 5 | N=125 | Test MAE=0.7237 eV
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 6 | N=140 | Test MAE=2.9866 eV
+
+  --- C_uncertainty ---
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 0 | N=50 | Test MAE=1.0940 eV
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 1 | N=65 | Test MAE=0.2808 eV
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 2 | N=80 | Test MAE=0.3466 eV
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 3 | N=95 | Test MAE=0.3501 eV
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 4 | N=110 | Test MAE=0.3590 eV
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 5 | N=125 | Test MAE=1.3617 eV
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 6 | N=140 | Test MAE=1.1941 eV
+
+  --- E_diversity ---
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 0 | N=50 | Test MAE=1.0940 eV
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 1 | N=65 | Test MAE=0.6670 eV
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 2 | N=80 | Test MAE=0.7510 eV
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 3 | N=95 | Test MAE=0.7949 eV
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 4 | N=110 | Test MAE=1.3669 eV
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 5 | N=125 | Test MAE=1.5753 eV
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 6 | N=140 | Test MAE=1.7878 eV
+
+  --- G_hybrid_weighted ---
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 0 | N=50 | Test MAE=1.0940 eV
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 1 | N=65 | Test MAE=0.5251 eV
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 2 | N=80 | Test MAE=0.9569 eV
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 3 | N=95 | Test MAE=0.7662 eV
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 4 | N=110 | Test MAE=0.9353 eV
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 5 | N=125 | Test MAE=1.3610 eV
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+    Iter 6 | N=140 | Test MAE=0.5662 eV
+
+Done!

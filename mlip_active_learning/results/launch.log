@@ -1,0 +1,8 @@
+MACE environment ready: Python 3.11.7, CUDA: True
+Launched MgO_surface seed=42 PID=14780
+Launched MgO_surface seed=52 PID=14781
+Launched MgO_surface seed=62 PID=14782
+Launched Zr_oxide_amorphous seed=42 PID=14783
+Launched Zr_oxide_amorphous seed=52 PID=14784
+Launched Zr_oxide_amorphous seed=62 PID=14785
+All launched

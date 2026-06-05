@@ -1,0 +1,10 @@
+Systems: ['MgO_surface']
+Seed: 62
+
+############################################################
+#  MgO_surface
+############################################################
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+  300 structures, Energy: [-488.6, -77.2] eV
+
+  --- A_random ---

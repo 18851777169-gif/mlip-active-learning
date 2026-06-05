@@ -1,0 +1,11 @@
+metric,value
+LOSO_task,G_hybrid_weighted > Random
+LOSO_accuracy,58.3%
+Binomial_p,0.2025
+Binomial_significant,False
+N_rows,36
+N_systems,6
+N_features,10
+Leakage_check,All features computable pre-AL
+Top_feature_1,force_range=0.1531
+Top_feature_2,force_skew=0.1422

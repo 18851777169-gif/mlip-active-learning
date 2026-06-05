@@ -1,0 +1,14 @@
+{
+  "A_random": {
+    "strategy": "A_random",
+    "final_mae": Infinity,
+    "total_train_time": 0.05858922004699707,
+    "n_final_labeled": 80
+  },
+  "G_hybrid_weighted": {
+    "strategy": "G_hybrid_weighted",
+    "final_mae": Infinity,
+    "total_train_time": 0.0035295486450195312,
+    "n_final_labeled": 80
+  }
+}

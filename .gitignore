@@ -1,0 +1,25 @@
+# Paper manuscripts (root only)
+/manuscript.md
+/manuscript_npj.tex
+/*.pdf
+/*.docx
+/*.aux
+/*.log
+/*.out
+/*.synctex*
+
+# Templates
+/reference.docx
+/header_fix.tex
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temp files
+*~
+~$*
+omml_sample.txt
+
+# IDE
+.claude/
