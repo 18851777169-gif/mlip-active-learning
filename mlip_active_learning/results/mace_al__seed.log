@@ -1,9 +1,0 @@
-Seed: 42, Systems: ['FeNiCrCoCu_HEA', 'MgO_surface', 'Pt_CH_activation', 'Zr_oxide_amorphous', 'liquid_water', 'zeolite']
-
-############################################################
-#  FeNiCrCoCu_HEA
-############################################################
-cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
-  Computing MACE energies...
-WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
-WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
